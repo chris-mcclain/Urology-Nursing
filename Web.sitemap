@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/" title="Home"  description="Home">
+    <siteMapNode url="~/Default.aspx" title="Home"  description="Homepage" />
+    <siteMapNode url="~/Terminology/Terminology.aspx" title="Terminology" description="urology terminology"></siteMapNode>
+    <siteMapNode url="~/Conditions.aspx" title="Conditions" description="urology conditions"></siteMapNode>
+    <siteMapNode url="~/Medications.aspx" title="Medications" description="urology medications"></siteMapNode>
+    <siteMapNode url="~/Procedures.aspx" title="Procedures" description="urology procedures"></siteMapNode>
+    <siteMapNode url="~/ICD10.aspx" title="ICD-10 Coding" description="ICD-10 Codes"></siteMapNode>
+    <siteMapNode url="~/CPT.aspx" title="CPT Coding" description="CPT Codes"></siteMapNode>
+    <siteMapNode url="~/HCPCS.aspx" title="HCPCS Coding" description="HCPCS Codes"></siteMapNode>
+    <siteMapNode url="~/GlobalDays.aspx" title="Global Days" description="global Days"></siteMapNode>
+    <siteMapNode url="~/InjectableDueDates.aspx" title="Injectable Due Dates" description="injectable due dates"></siteMapNode>
+    <siteMapNode url="~/InjectableDatabase.aspx" title="Injectable Database" description="database of injectable patients"></siteMapNode>
+    <siteMapNode url="~/Triage.aspx" title="Triage" description="triage incoming calls"></siteMapNode>
+  </siteMapNode>
+</siteMap>

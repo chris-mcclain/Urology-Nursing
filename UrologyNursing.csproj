@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB56B0DD-0161-4FA7-A3C6-22670109D6CC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UrologyNursing</RootNamespace>
+    <AssemblyName>UrologyNursing</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Conditions.aspx" />
+    <Content Include="CPT.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="GlobalDays.aspx" />
+    <Content Include="HCPCS.aspx" />
+    <Content Include="ICD10.aspx" />
+    <Content Include="InjectableDatabase.aspx" />
+    <Content Include="InjectableDueDates.aspx" />
+    <Content Include="Medications.aspx" />
+    <Content Include="Procedures.aspx" />
+    <Content Include="Styles\Styles.css" />
+    <Content Include="Terminology\Terminology.aspx" />
+    <Content Include="Terminology\TerminologyA.aspx" />
+    <Content Include="Terminology\TerminologyB.aspx" />
+    <Content Include="Terminology\TerminologyC.aspx" />
+    <Content Include="Terminology\TerminologyD.aspx" />
+    <Content Include="Terminology\TerminologyE.aspx" />
+    <Content Include="Terminology\TerminologyF.aspx" />
+    <Content Include="Terminology\TerminologyG.aspx" />
+    <Content Include="Terminology\TerminologyH.aspx" />
+    <Content Include="Terminology\TerminologyI.aspx" />
+    <Content Include="Terminology\TerminologyJ.aspx" />
+    <Content Include="Terminology\TerminologyK.aspx" />
+    <Content Include="Terminology\TerminologyL.aspx" />
+    <Content Include="Terminology\TerminologyM.aspx" />
+    <Content Include="Terminology\TerminologyN.aspx" />
+    <Content Include="Terminology\TerminologyO.aspx" />
+    <Content Include="Terminology\TerminologyP.aspx" />
+    <Content Include="Terminology\TerminologyQ.aspx" />
+    <Content Include="Terminology\TerminologyR.aspx" />
+    <Content Include="Terminology\TerminologyS.aspx" />
+    <Content Include="Terminology\TerminologyT.aspx" />
+    <Content Include="Terminology\TerminologyU.aspx" />
+    <Content Include="Terminology\TerminologyV.aspx" />
+    <Content Include="Terminology\TerminologyW.aspx" />
+    <Content Include="Terminology\TerminologyX.aspx" />
+    <Content Include="Terminology\TerminologyY.aspx" />
+    <Content Include="Terminology\TerminologyZ.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conditions.aspx.cs">
+      <DependentUpon>Conditions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conditions.aspx.designer.cs">
+      <DependentUpon>Conditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CPT.aspx.cs">
+      <DependentUpon>CPT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CPT.aspx.designer.cs">
+      <DependentUpon>CPT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalDays.aspx.cs">
+      <DependentUpon>GlobalDays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GlobalDays.aspx.designer.cs">
+      <DependentUpon>GlobalDays.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HCPCS.aspx.cs">
+      <DependentUpon>HCPCS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HCPCS.aspx.designer.cs">
+      <DependentUpon>HCPCS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ICD10.aspx.cs">
+      <DependentUpon>ICD10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ICD10.aspx.designer.cs">
+      <DependentUpon>ICD10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InjectableDatabase.aspx.cs">
+      <DependentUpon>InjectableDatabase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InjectableDatabase.aspx.designer.cs">
+      <DependentUpon>InjectableDatabase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InjectableDueDates.aspx.cs">
+      <DependentUpon>InjectableDueDates.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InjectableDueDates.aspx.designer.cs">
+      <DependentUpon>InjectableDueDates.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\FrontEnd.Master.cs">
+      <DependentUpon>FrontEnd.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\FrontEnd.Master.designer.cs">
+      <DependentUpon>FrontEnd.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Terminology.Master.cs">
+      <DependentUpon>Terminology.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Terminology.Master.designer.cs">
+      <DependentUpon>Terminology.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Triage.Master.cs">
+      <DependentUpon>Triage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Triage.Master.designer.cs">
+      <DependentUpon>Triage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Medications.aspx.cs">
+      <DependentUpon>Medications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Medications.aspx.designer.cs">
+      <DependentUpon>Medications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procedures.aspx.cs">
+      <DependentUpon>Procedures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Procedures.aspx.designer.cs">
+      <DependentUpon>Procedures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Terminology\Terminology.aspx.cs">
+      <DependentUpon>Terminology.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\Terminology.aspx.designer.cs">
+      <DependentUpon>Terminology.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyA.aspx.cs">
+      <DependentUpon>TerminologyA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyA.aspx.designer.cs">
+      <DependentUpon>TerminologyA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyB.aspx.cs">
+      <DependentUpon>TerminologyB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyB.aspx.designer.cs">
+      <DependentUpon>TerminologyB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyC.aspx.cs">
+      <DependentUpon>TerminologyC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyC.aspx.designer.cs">
+      <DependentUpon>TerminologyC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyD.aspx.cs">
+      <DependentUpon>TerminologyD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyD.aspx.designer.cs">
+      <DependentUpon>TerminologyD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyE.aspx.cs">
+      <DependentUpon>TerminologyE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyE.aspx.designer.cs">
+      <DependentUpon>TerminologyE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyF.aspx.cs">
+      <DependentUpon>TerminologyF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyF.aspx.designer.cs">
+      <DependentUpon>TerminologyF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyG.aspx.cs">
+      <DependentUpon>TerminologyG.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyG.aspx.designer.cs">
+      <DependentUpon>TerminologyG.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyH.aspx.cs">
+      <DependentUpon>TerminologyH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyH.aspx.designer.cs">
+      <DependentUpon>TerminologyH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyI.aspx.cs">
+      <DependentUpon>TerminologyI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyI.aspx.designer.cs">
+      <DependentUpon>TerminologyI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyJ.aspx.cs">
+      <DependentUpon>TerminologyJ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyJ.aspx.designer.cs">
+      <DependentUpon>TerminologyJ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyK.aspx.cs">
+      <DependentUpon>TerminologyK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyK.aspx.designer.cs">
+      <DependentUpon>TerminologyK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyL.aspx.cs">
+      <DependentUpon>TerminologyL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyL.aspx.designer.cs">
+      <DependentUpon>TerminologyL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyM.aspx.cs">
+      <DependentUpon>TerminologyM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyM.aspx.designer.cs">
+      <DependentUpon>TerminologyM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyN.aspx.cs">
+      <DependentUpon>TerminologyN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyN.aspx.designer.cs">
+      <DependentUpon>TerminologyN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyO.aspx.cs">
+      <DependentUpon>TerminologyO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyO.aspx.designer.cs">
+      <DependentUpon>TerminologyO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyP.aspx.cs">
+      <DependentUpon>TerminologyP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyP.aspx.designer.cs">
+      <DependentUpon>TerminologyP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyQ.aspx.cs">
+      <DependentUpon>TerminologyQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyQ.aspx.designer.cs">
+      <DependentUpon>TerminologyQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyR.aspx.cs">
+      <DependentUpon>TerminologyR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyR.aspx.designer.cs">
+      <DependentUpon>TerminologyR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyS.aspx.cs">
+      <DependentUpon>TerminologyS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyS.aspx.designer.cs">
+      <DependentUpon>TerminologyS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyT.aspx.cs">
+      <DependentUpon>TerminologyT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyT.aspx.designer.cs">
+      <DependentUpon>TerminologyT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyU.aspx.cs">
+      <DependentUpon>TerminologyU.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyU.aspx.designer.cs">
+      <DependentUpon>TerminologyU.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyV.aspx.cs">
+      <DependentUpon>TerminologyV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyV.aspx.designer.cs">
+      <DependentUpon>TerminologyV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyW.aspx.cs">
+      <DependentUpon>TerminologyW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyW.aspx.designer.cs">
+      <DependentUpon>TerminologyW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyX.aspx.cs">
+      <DependentUpon>TerminologyX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyX.aspx.designer.cs">
+      <DependentUpon>TerminologyX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyY.aspx.cs">
+      <DependentUpon>TerminologyY.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyY.aspx.designer.cs">
+      <DependentUpon>TerminologyY.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terminology\TerminologyZ.aspx.cs">
+      <DependentUpon>TerminologyZ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terminology\TerminologyZ.aspx.designer.cs">
+      <DependentUpon>TerminologyZ.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\FrontEnd.Master" />
+    <Content Include="MasterPages\Terminology.Master" />
+    <Content Include="MasterPages\Triage.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:52994/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
