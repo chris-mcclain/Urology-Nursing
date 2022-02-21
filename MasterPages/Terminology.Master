@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Terminology.master.cs" Inherits="UrologyNursing.MasterPages.Terminology" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <nav style="float:left">
+            <asp:Menu ID="mnuMainMenu" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        </nav>
+        <div style="width:100px"></div>
+       
+        <section id="MainContent" style="float:left">
+            <div class="title">
+                <asp:Label ID="lblTerminology" runat="server" Text="Urology Terminology"></asp:Label>
+            </div>
+            <br />
+             <asp:Label ID="lblBrowse" runat="server" Text="Browse:" style="color:blue;"></asp:Label>
+                <nav style="text-align:center; color: blue; background-color:aliceblue;">
+                    <asp:LinkButton ID="btnA" runat="server" OnClick="btnA_Click">A</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnB" runat="server" OnClick="btnB_Click">B</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnC" runat="server" OnClick="btnC_Click">C</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnD" runat="server" OnClick="btnD_Click">D</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnE" runat="server" OnClick="btnE_Click">E</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnF" runat="server" OnClick="btnF_Click">F</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnG" runat="server" OnClick="btnG_Click">G</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnH" runat="server" OnClick="btnH_Click">H</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnI" runat="server" OnClick="btnI_Click">I</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnJ" runat="server" OnClick="btnJ_Click">J</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnK" runat="server" OnClick="btnK_Click">K</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnL" runat="server" OnClick="btnL_Click">L</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnM" runat="server" OnClick="btnM_Click">M</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnN" runat="server" OnClick="btnN_Click">N</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnO" runat="server" OnClick="btnO_Click">O</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnP" runat="server" OnClick="btnP_Click">P</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnQ" runat="server" OnClick="btnQ_Click">Q</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnR" runat="server" OnClick="btnR_Click">R</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnS" runat="server" OnClick="btnS_Click">S</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnT" runat="server" OnClick="btnT_Click">T</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnU" runat="server" OnClick="btnU_Click">U</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnV" runat="server" OnClick="btnV_Click">V</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnW" runat="server" OnClick="btnW_Click">W</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnX" runat="server" OnClick="btnX_Click">X</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnY" runat="server" OnClick="btnY_Click">Y</asp:LinkButton>&nbsp
+                    <asp:LinkButton ID="btnZ" runat="server" OnClick="btnZ_Click">Z</asp:LinkButton>
+                </nav>
+                <br />
+                <br />
+                
+            <asp:ContentPlaceHolder ID="cpMainContent" runat="server">    
+                
+            </asp:ContentPlaceHolder>
+         </section>
+    </div>
+    </form>
+</body>
+</html>

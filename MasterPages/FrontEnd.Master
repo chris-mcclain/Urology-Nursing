@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FrontEnd.master.cs" Inherits="UrologyNursing.MasterPages.FrontEnd" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <nav style="float:left">
+            <asp:Menu ID="mnuMainMenu" runat="server" CssClass="MainMenu" DataSourceID="SiteMapDataSource1" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+        </nav>
+        <div style="width:100px"></div>
+        <section id="MainContent" style="float:left">
+            <asp:ContentPlaceHolder id="cpMainContent" runat="server">
+                
+            </asp:ContentPlaceHolder>
+         </section>
+    </div>
+    </form>
+</body>
+</html>

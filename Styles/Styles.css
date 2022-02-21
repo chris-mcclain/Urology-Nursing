@@ -1,0 +1,75 @@
+﻿* 
+{
+    font-family: 'Lucida Calligraphy';
+}
+
+header
+{
+    background-color: aliceblue;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    color: blue;
+}
+
+.MainMenu
+{
+  height: auto;
+  width: auto;
+  float:left;
+  position: absolute;
+} 
+
+.MainMenu ul li
+  {
+    background-color: aliceblue;
+    border: solid 1px;
+    color: blue;
+    width: auto;
+  }
+
+h1 
+{
+    font-size: 20px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    color: blue;
+}
+
+.title 
+{
+    text-align: center;
+    font-size: 26px;
+    color: blue;
+    font-weight: bold;
+}
+
+#PageWrapper 
+{
+    width: 100%;
+    margin: auto;
+}
+
+nav 
+{
+    width: 844px;
+}
+
+section#MainContent 
+{
+    width: 1000px;
+    float: left;
+    margin-left: 220px;
+}
+
+    section#MainContent a 
+    {
+        color:blue;
+        text-decoration: underline;
+    }
+
+.ErrorMessage 
+{
+    color:red;
+}
+
